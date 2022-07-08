@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E test.c | export $test.c
+gcc -E test.c | export test.c=main.c
