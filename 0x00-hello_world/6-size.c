@@ -22,6 +22,5 @@ int main(void)
 	printf("bytes(s)\n");
 	printf("size of a float: %lu", (unsigned long)sizeof(f));
 	printf("bytes(s)\n");
-
 	return (0);
 }
