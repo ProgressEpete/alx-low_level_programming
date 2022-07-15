@@ -1,9 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- *  * main - takes unspecificed number of arguments and returns value on
- *   * Description: longer things about the main function
- *    * Return: 0
+ *  * main - Entry point
+ *
+ *    * Return: Always 0 (Success)
  **/
+
 int main(void)
 {
 	char c;
@@ -11,15 +12,16 @@ int main(void)
 	double d;
 	float f;
 
-	printf("Size of a char: %lu", (unsigned long)sizeof(c));
-	printf(" byte(s)\n");
-	printf("Size of an int: %lu", (unsigned long)sizeof(i));
-	printf(" byte(s)\n");
-	printf("Size of a long int: %lu", (unsigned long)sizeof(i));
-	printf(" byte(s)\n");
-	printf("Size of a long long int: %lu", (unsigned long)sizeof(d));
-	printf(" byte(s)\n");
-	printf("Size of a float: %lu", (unsigned long)sizeof(f));
-	printf(" byte(s)\n");
-										return (0);
+	printf("size of a char: %lu", (unsigned long)sizeof(c));
+	printf("bytes(s)\n");
+	printf("size of an int: %lu", (unsigned long)sizeof(i));
+	printf("bytes(s)\n");
+	printf("size of a long int: %lu", (unsigned long)sizeof(i));
+	printf("bytes(s)\n");
+	printf("size of a long long int: %lu", (unsigned long)sizeof(d));
+	printf("bytes(s)\n");
+	printf("size of a float: %lu", (unsigned long)sizeof(f));
+	printf("bytes(s)\n");
+
+	return (0);
 }
