@@ -2,17 +2,19 @@
 #include<time.h>
 #include<stdio.h>
 /**
- *main -> assign a random number to the variable n each time it executes
- * and print the last digit of the number in the variable n
+ * main -> Write a program that prints the alphabet in lowercase
+ * followed by a new line.
  *Return: 0
  **/
 
 int main(void)
 {
 	int ch;
-for (ch = 97; ch <= 122; ch++)
 
+for (ch = 97; ch <= 122; ch++)
+{
 	putchar(ch);
+}
 	putchar(10);
 	return (0);
 }
