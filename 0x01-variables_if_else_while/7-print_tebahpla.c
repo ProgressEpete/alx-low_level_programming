@@ -11,7 +11,7 @@ int main(void)
 {
 	char ch;
 
-	for (ch = 'z'; ch >= 'a'; ch++)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	putchar(ch);
 
 	putchar(10); /*this is an ascii code for newline*/
