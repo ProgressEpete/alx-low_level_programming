@@ -1,13 +1,11 @@
 #include <stdio.h>
-/**
- * main functions
- * return (0)
- * Write a C program that prints exactly Programming is like
- * building a multilingual puzzle, followed by a new line.
- */
 
-	int main(void)
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
+  int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
